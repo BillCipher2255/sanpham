@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    background-image: url("https://ik.imagekit.io/tvlk/image/imageResource/2025/01/05/1736039153373-64c979a852c7ec9063c6f2104bcf58dd.png?tr=q-75");
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.infor{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Giúp chữ rõ hơn */
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+    
+.header{
+    padding-left: 60px;
+    color: white;
+}
+
+.Trust{
+    font-size: 15px;
+    color: white;
+}
+
+.icon{
+    color: white;
+    font-size: 15px;
+    border-image: linear-gradient(to right, black,white)1;
+    text-align: center;
+}
+
