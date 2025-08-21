@@ -1,11 +1,14 @@
-*{
+body{
     margin: 0;
-    background-image: url("https://ik.imagekit.io/tvlk/image/imageResource/2025/01/05/1736039153373-64c979a852c7ec9063c6f2104bcf58dd.png?tr=q-75");
+    background-image: url("https://ik.imagekit.io/tvlk/image/imageResource/2025/01/05/1736039153373-64c979a852c7ec9063c6f2104bcf58dd.png?tr=q-75") ;
 }
 
 .list{
     display: flex;
     justify-content: space-around;
+    border-bottom: 1px solid white;
+    padding: 4px;
+
 
 }
 
@@ -15,6 +18,11 @@
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Giúp chữ rõ hơn */
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
+    outline: none;
+    border: 1px solid transparent;
+    padding: 10px;
+
+    
 }
 
     
@@ -23,20 +31,15 @@
     color: white;
 }
 
-.Trust{
-    font-size: 15px;
-    color: white;
-}
 
-.icon{
-    color: white;
-    font-size: 15px;
-    border-image: linear-gradient(to right, black,white)1;
-    text-align: center;
-}
-
-.fist.button {
+.infor:hover{
+    background-color: rgb(153, 204, 255);
+    border: 1px solid white;
     border-radius: 50px;
-    width: 200px;
-    border: 2px solid;
+    
 }
+
+/* .navbar{
+    background-color: rgba(255, 255, 255, 0.5);
+
+} */
