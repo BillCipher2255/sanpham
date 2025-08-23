@@ -39,7 +39,43 @@ body{
     
 }
 
-/* .navbar{
-    background-color: rgba(255, 255, 255, 0.5);
+.head{
+    text-align: center;
+    color:white;
+}
 
+img{
+    border-radius: 20px;
+}
+
+.dd1{
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    padding: 15px;
+    width: 29%;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.noi-dung{
+    text-align: justify;
+}
+
+
+.tim-hieu-them-van-mieu{
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+    padding: 10px;
+
+}
+
+/* .tim-hieu-them-van-mieu:hover{
+    background-color: rgb(153, 204, 255);
+    border: 1px solid white;
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+    
 } */
