@@ -3,6 +3,13 @@ body{
     background-image: url("https://ik.imagekit.io/tvlk/image/imageResource/2025/01/05/1736039153373-64c979a852c7ec9063c6f2104bcf58dd.png?tr=q-75") ;
 }
 
+.dia-diem1{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
 .list{
     display: flex;
     justify-content: space-around;
@@ -48,7 +55,7 @@ img{
     border-radius: 20px;
 }
 
-.dd1{
+.dd{
     color: white;
     text-align: center;
     border: 2px solid white;
@@ -64,18 +71,21 @@ img{
 }
 
 
-.tim-hieu-them-van-mieu{
+.tim-hieu-them{
     text-decoration: none;
     color: white;
     border: 1px solid transparent;
+    font-family: 'Roboto', sans-serif;
     padding: 10px;
-
 }
 
-/* .tim-hieu-them-van-mieu:hover{
+.tim-hieu-them:hover{
     background-color: rgb(153, 204, 255);
     border: 1px solid white;
     border-radius: 50px;
-    font-family: 'Roboto', sans-serif;
+    color: black;
     
-} */
+
+    
+    
+}
