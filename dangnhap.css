@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Hanoi_Skyline_-_NKS.jpg/500px-Hanoi_Skyline_-_NKS.jpg") ;
+}
+
+
 label{
     position: absolute;
     left: 13px;
