@@ -1,11 +1,32 @@
-body{
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+body {
     margin: 0;
-    background-image: url("https://ik.imagekit.io/tvlk/image/imageResource/2025/01/05/1736039153373-64c979a852c7ec9063c6f2104bcf58dd.png?tr=q-75") ;
+    padding: 0;
+    background-image: url("background.gif");  /* Đặt ảnh nền */
+    background-size: cover;                   /* Phủ toàn màn hình */
+    background-repeat: no-repeat;             /* Không lặp lại */
+    background-position: center;              /* Căn giữa */
+    height: 100vh;
+    color: white;                             /* Chữ trắng cho dễ đọc */
+    text-align: center;
+    font-family: sans-serif;
 }
 
 .dia-diem1{
     display: flex;
     justify-content: space-around;
+
+
+
 }
 
 
