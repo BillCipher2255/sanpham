@@ -1,3 +1,10 @@
+@media (max-width: 1024px) {
+    .qb_listing_detailds_page .qb_hd_four {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
 #background-video {
     position: fixed;
     top: 0;
@@ -21,23 +28,34 @@ body {
     font-family: sans-serif;
 }
 
+.content {
+    position: relative;
+    margin-top: 200px;
+
+}
 .dia-diem1{
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-around;
-
+    
 
 
 }
 
-
+.navbar{
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.6), rgba(255, 182, 193, 0.8));
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
 
 .list{
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid white;
+
     padding: 4px;
-
-
 }
 
 .infor{
@@ -74,6 +92,11 @@ body {
 
 img{
     border-radius: 20px;
+    height: 200px;
+    width: 300px;
+    display: block;
+    text-align: center;
+
 }
 
 .dd{
@@ -85,6 +108,11 @@ img{
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.6);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 .noi-dung{

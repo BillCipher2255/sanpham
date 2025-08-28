@@ -1,3 +1,10 @@
+@media (max-width: 1024px) {
+    .qb_listing_detailds_page .qb_hd_four {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
 #background-video {
     position: fixed;
     top: 0;
