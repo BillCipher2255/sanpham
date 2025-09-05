@@ -18,7 +18,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("background.gif");  /* Đặt ảnh nền */
     background-size: cover;                   /* Phủ toàn màn hình */
     background-repeat: no-repeat;             /* Không lặp lại */
     background-position: center;              /* Căn giữa */
@@ -30,7 +29,7 @@ body {
 
 .content {
     position: relative;
-    margin-top: 200px;
+    /* margin-top: 200px; */
 
 }
 .dia-diem1{
@@ -50,6 +49,34 @@ body {
     width: 100%;
     z-index: 1;
 }
+.GTNB{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.gioi-thieu-p{
+    /* margin-top: 200px; */
+    position: relative;
+    text-align: justify;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* margin: auto;      */
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    border: 2px solid black ;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+    display: flex;
+    justify-content: center;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+
 
 .list{
     display: flex;
