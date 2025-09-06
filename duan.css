@@ -42,13 +42,22 @@ body {
 
 }
 
-.navbar{
-    background: linear-gradient(to right,rgba(0, 0, 0, 0.6), rgba(255, 182, 193, 0.8));
+#navbar{
+    /* background: linear-gradient(to right,rgba(0, 0, 0, 0.6), rgba(255, 182, 193, 0.8)); */
     top: 0px;
     position: fixed;
     width: 100%;
     z-index: 1;
+    background:  rgba(0, 0, 0, 0.3);
 }
+/* Mặc định: Trong suốt */
+/* Khi cuộn: có nền */
+#navbar.scrolled {
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.6), rgba(255, 182, 193, 0.8));
+}
+
+
+
 .GTNB{
     text-align: center;
     margin-top: 200px;
@@ -163,3 +172,37 @@ img{
 }
 
 
+.theo-doi{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: white;
+    display: block;
+}
+
+.icond{
+    display: flex;
+    gap: 10px;
+    padding-left: 900px;
+    
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: palevioletred;
+}
+
+.slideshow{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.mySlides{
+    height: 400px;
+    width: 1000px;
+}
