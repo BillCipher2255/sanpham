@@ -28,6 +28,20 @@ body {
     font-family: sans-serif;
 }
 
+.navbar{
+    /* background: linear-gradient(to right,rgba(0, 0, 0, 0.6), rgba(255, 182, 193, 0.8)); */
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background:  rgba(0, 0, 0, 0.8);
+    padding-bottom: 1%;
+}
+/* Mặc định: Trong suốt */
+/* Khi cuộn: có nền */
+.navbar.scrolled {
+    background: linear-gradient(to right,rgba(0, 0, 0, 1), rgba(255, 182, 193, 1));
+}
 
 .log-in{
     width: 420px;                 
@@ -66,4 +80,18 @@ input{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.theo-doi{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: white;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px 0;
+    margin-top: 50px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
