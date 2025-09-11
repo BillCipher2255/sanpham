@@ -54,7 +54,7 @@ body {
 /* Mặc định: Trong suốt */
 /* Khi cuộn: có nền */
 #navbar.scrolled {
-    background: linear-gradient(to right,rgba(0, 0, 0, 1), rgba(255, 182, 193, 1));
+    background: rgb(255, 192, 203);
 }
 
 
